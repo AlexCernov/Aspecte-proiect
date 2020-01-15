@@ -83,7 +83,7 @@ namespace BusinessTripApplication.Controllers
         {
             try
             {
-                Assert.That.AreEqual(ModelState.IsValid,true);
+                Assert.AreEqual(ModelState.IsValid,true);
                 var model = new LogInViewModel(ModelState.IsValid, email, password, rememberMe, UserService, out var response);
                 if (response == 1)
                 {
@@ -113,7 +113,7 @@ namespace BusinessTripApplication.Controllers
         {
             try
             {
-                Assert.That.AreEqual(ModelState.IsValid,true);
+                Assert.AreEqual(ModelState.IsValid,true);
                 var model = new RegistrationViewModel(ModelState.IsValid, user, UserService);
                 return View(model);
             }

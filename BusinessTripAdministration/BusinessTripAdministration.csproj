@@ -240,5 +240,11 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\mvcvalidationextensions.unobtrusive.js" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BussinesTripModels\BusinessTripModels.csproj">
+      <Project>{b7a340f4-2234-48ee-acba-e8a0bafe9cf2}</Project>
+      <Name>BusinessTripModels</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
