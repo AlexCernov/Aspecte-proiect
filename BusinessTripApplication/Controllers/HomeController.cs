@@ -10,7 +10,7 @@ namespace BusinessTripApplication.Controllers
         {
             if (Request.IsAuthenticated)
             {
-                return RedirectToAction("Index", "Trips");
+                return RedirectToAction("Index", "User");
             }
             return RedirectToAction("Login", "User");
         }
