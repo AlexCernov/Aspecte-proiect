@@ -2,6 +2,6 @@ using System.Reflection;
 using System.Runtime.InteropServices;
 
 
-[assembly:AssemblyVersion                ("0.0.0.6")]
-[assembly:AssemblyFileVersion            ("0.0.0.6")]
-[assembly:AssemblyInformationalVersion   ("0.0.0.6, Hash b186dca, BuildConfig DEBUG, HasLocalChange False")]
+[assembly:AssemblyVersion                ("0.0.0.7")]
+[assembly:AssemblyFileVersion            ("0.0.0.7")]
+[assembly:AssemblyInformationalVersion   ("0.0.0.7, Hash f2551b7, BuildConfig DEBUG, HasLocalChange False")]

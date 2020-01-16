@@ -1,6 +1,6 @@
-#define VERSION_COMA   0,0,0,6
-#define VERSION        "0.0.0.6"
-#define FULL_VERSION   "0.0.0.6, Hash b186dca, BuildConfig DEBUG, HasLocalChange False"
+#define VERSION_COMA   0,0,0,7
+#define VERSION        "0.0.0.7"
+#define FULL_VERSION   "0.0.0.7, Hash f2551b7, BuildConfig DEBUG, HasLocalChange False"
 #define COMPANY        "TODO Company"
 #define PRODUCT        "TODO Product"
 #define COPYRIGHT      "TODO Copyright"
