@@ -7,6 +7,7 @@ using BusinessTripModels.Models;
 using BusinessTripApplication.Repository;
 using BusinessTripApplication.Service;
 using BusinessTripApplication.ViewModels;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace BusinessTripApplication.Controllers
 {
@@ -73,6 +74,8 @@ namespace BusinessTripApplication.Controllers
         [Authorize]
         public ActionResult Create([Bind(Exclude = "User, Status")] Trip trip)
         {
+            Assert.AreEqual(ModelState.IsValid, true);
+
             //Get usere from session
             trip.User = new User() { Email = User.Identity.Name };
          
